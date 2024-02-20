@@ -1,26 +1,25 @@
 import React from "react";
-import Header from "./components/Header";
-import Navbar from './components/Navbar'
-import About from "./pages/About";
-import Experience from "./pages/Experience";
-import MyProjects from "./pages/MyProjects";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
-import MySkills from "./pages/MySkills";
+import Header from "./components/header/Header";
+import Navbar from "./components/nav/Navbar";
+import About from "./pages/about/About";
+import Experience from "./pages/experience/Experience";
+import MyProjects from "./pages/myprojects/MyProjects";
+import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
+import MySkills from "./pages/myskills/MySkills";
 
 function App() {
-  
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Navbar />
       <About />
       <Experience />
-      <MySkills/>
-      <MyProjects/>
-      <Contact/>
-      <Footer/>
-      </div>
+      <MySkills />
+      <MyProjects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

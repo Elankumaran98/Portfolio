@@ -1,7 +1,8 @@
 import React from 'react'
-import pos from '../assets/pos.png'
-import pizza from '../assets/pizza.png'
-import prohub from '../assets/prohub.jpeg'
+import './myprojects.css'
+import pos from '../../assets/pos.png'
+import pizza from '../../assets/pizza.png'
+import prohub from '../../assets/prohub.jpeg'
 
 const MyProjects = () => {
   return (

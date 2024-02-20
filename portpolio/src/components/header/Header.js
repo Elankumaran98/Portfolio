@@ -1,7 +1,8 @@
-import React from 'react'
-import CTA from './CTA';
-import ScocialAccounts from './ScocialAccounts';
-import me from '../assets/me.jpg'
+import React from "react";
+import CTA from "./CTA";
+import ScocialAccounts from "./ScocialAccounts";
+import me from "../../assets/me.jpg";
+import './header.css'
 
 const Header = () => {
   return (
@@ -21,6 +22,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;

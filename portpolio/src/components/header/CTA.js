@@ -1,5 +1,6 @@
 import React from 'react'
-import resumeData from "../assets/Resume Elankumaran SivaSubramaniam.pdf";
+import resumeData from "../../assets/Resume Elankumaran SivaSubramaniam.pdf";
+import './header.css'
 const CTA = () => {
   return (
     <div className="cta">

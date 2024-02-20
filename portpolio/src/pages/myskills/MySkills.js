@@ -1,4 +1,5 @@
 import React from 'react'
+import './myskills.css'
 import { BsFillPatchCheckFill } from "react-icons/bs";
 
 const MySkills = () => {

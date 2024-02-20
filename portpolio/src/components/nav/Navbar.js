@@ -5,6 +5,7 @@ import { FaAccusoft, FaLaptopCode } from "react-icons/fa";
 import { GoChecklist } from "react-icons/go";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import './navbar.css'
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
