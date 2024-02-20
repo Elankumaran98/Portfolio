@@ -6,8 +6,7 @@ import Experience from "./pages/Experience";
 import MyProjects from "./pages/MyProjects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-
-
+import MySkills from "./pages/MySkills";
 
 function App() {
   
@@ -17,6 +16,7 @@ function App() {
       <Navbar />
       <About />
       <Experience />
+      <MySkills/>
       <MyProjects/>
       <Contact/>
       <Footer/>

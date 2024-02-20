@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiUser } from "react-icons/bi";
-import { FaLaptopCode } from "react-icons/fa";
+import { FaAccusoft, FaLaptopCode } from "react-icons/fa";
 import { GoChecklist } from "react-icons/go";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
@@ -27,6 +27,12 @@ const Navbar = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}>
         <FaLaptopCode />
+      </a>
+      <a
+        href="#myskills"
+        onClick={() => setActiveNav("#myskills")}
+        className={activeNav === "#myskills" ? "active" : ""}>
+        <FaAccusoft />
       </a>
       <a
         href="#myprojects"
