@@ -1,19 +1,25 @@
-import React from 'react'
-import {MdOutlineEmail} from 'react-icons/md'
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import './contact.css'
+import React from "react";
+import { MdOutlineEmail } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./contact.css";
+
+
 
 const Contact = () => {
-   const form = useRef()
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_kpzxgqz', 'template_kk9ipl8', form.current, 'uKELRhBOpArKOozDJ')
-    e.target.reset()
-    
-  }
+    emailjs.sendForm(
+      "kumaranlaxi",
+      "template_jsi98rj",
+      form.current,
+      "aeAPnRHwWQeo1rm_-"
+    );
+    e.target.reset();
+  };
 
   return (
     <section id="contacts">
@@ -36,8 +42,7 @@ const Contact = () => {
             name="name"
             placeholder="Your Full Name"
             required
-          />{" "}
-          {/* client side validation */}
+          />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
@@ -51,6 +56,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;
