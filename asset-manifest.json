@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Elankumaran98/Portfolio/tree/master/portpolio/static/css/main.fd456b4f.css",
+    "main.js": "/Elankumaran98/Portfolio/tree/master/portpolio/static/js/main.da820d22.js",
+    "static/media/pizza.png": "/Elankumaran98/Portfolio/tree/master/portpolio/static/media/pizza.7da15d7896524c75e556.png",
+    "static/media/pos.png": "/Elankumaran98/Portfolio/tree/master/portpolio/static/media/pos.76b78d4f0168e5440e0c.png",
+    "static/media/me.jpg": "/Elankumaran98/Portfolio/tree/master/portpolio/static/media/me.7a77db360eb91ce41f10.jpg",
+    "static/media/Resume Elankumaran SivaSubramaniam.pdf": "/Elankumaran98/Portfolio/tree/master/portpolio/static/media/Resume Elankumaran SivaSubramaniam.b0be77b2c97a91ac04c5.pdf",
+    "index.html": "/Elankumaran98/Portfolio/tree/master/portpolio/index.html",
+    "main.fd456b4f.css.map": "/Elankumaran98/Portfolio/tree/master/portpolio/static/css/main.fd456b4f.css.map",
+    "main.da820d22.js.map": "/Elankumaran98/Portfolio/tree/master/portpolio/static/js/main.da820d22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd456b4f.css",
+    "static/js/main.da820d22.js"
+  ]
+}
