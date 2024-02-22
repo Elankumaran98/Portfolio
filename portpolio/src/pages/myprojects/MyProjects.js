@@ -10,16 +10,16 @@ const MyProjects = () => {
       <h5>My Recent Works</h5>
       <h2>Projects</h2>
 
-      <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+      <div className="container portfoliocontainer">
+        <article className="portfolioitem">
+          <div className="portfolioitem-image">
             <img src={pos} alt="" />
           </div>
           <h3>POS Sysyem (ongoing)</h3>
           <small className="text-light">
             React | Ant Design | MongoDB | Express | Node Js
           </small>
-          <div className="portfolio__item-cta">
+          <div className="portfolioitem-cta">
             <a
               href="https://github.com/Elankumaran98/POS"
               target="_blank"
@@ -29,15 +29,15 @@ const MyProjects = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolioitem">
+          <div className="portfolioitem-image">
             <img src={pizza} alt="" />
           </div>
           <h3>EL Pizza (ongoing)</h3>
           <small className="text-light">
             React | Bootstrap | MongoDB | Express | Node Js
           </small>
-          <div className="portfolio__item-cta">
+          <div className="portfolioitem-cta">
             <a
               href="https://github.com/Elankumaran98/EL-Pizza"
               target="_blank"
@@ -47,28 +47,21 @@ const MyProjects = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolioitem">
+          <div className="portfolioitem-image">
             <img src={prohub} alt="" />
           </div>
           <h3>Project Management Tool (FrontEnd side My Contribution)</h3>
           <small className="text-light">
             React | Bootstrap | SQL | Springboot
           </small>
-          <div className="portfolio__item-cta">
+          <div className="portfolioitem-cta">
             <a
               href="https://github.com/ProHubOffl"
               target="_blank"
               rel="noreferrer"
               className="btn">
               Github
-            </a>
-            <a
-              href="https://github.com/ProHubOffl"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-primary">
-              Visit Website
             </a>
           </div>
         </article>

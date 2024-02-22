@@ -33,7 +33,7 @@ const Experience = () => {
               <div>
                 <h4>POS System</h4>
                 <small className="text-light">
-                  MERN Stack app using Ant Design{" "}
+                  MERN Stack app using Ant Design
                 </small>
               </div>
             </article>
