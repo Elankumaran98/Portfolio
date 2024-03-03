@@ -15,7 +15,7 @@ const MyProjects = () => {
           <div className="portfolioitem-image">
             <img src={pos} alt="" />
           </div>
-          <h3>POS Sysyem (ongoing)</h3>
+          <h3>POS Sysyem</h3>
           <small className="text-light">
             React | Ant Design | MongoDB | Express | Node Js
           </small>
